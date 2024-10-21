@@ -11,8 +11,28 @@
     <div class="container">
       <header>
         <section>
-          <div>Searchbar + Notification + Profile Icon + Username</div>
-          <div>Profile Icon + Greeting + 3*button</div>
+          <div class="searchbar">
+            <img class="icon" src="assets/icons/search.svg" alt="magnifier icon" />
+            <input type="text" name="search" id="search" />
+          </div>
+
+          <div class="user-menu">
+            <img class="icon" src="assets/icons/bell.svg" alt="bell icon" />
+            <img class="avatar-small" src="assets/profile-picture.png" alt="profile icon" />
+            <p>User Name</p>
+          </div>
+
+          <div class="user-greeting">
+            <img class="avatar-medium" src="assets/profile-picture.png" alt="profile icon" />
+            <p>Hi there,</p>
+            <p>User Name (@name)</p>
+          </div>
+
+          <div class="action-buttons">
+            <button class="action-button" type="button">New</button>
+            <button class="action-button" type="button">Upload</button>
+            <button class="action-button" type="button">Share</button>
+          </div>
         </section>
       </header>
 
@@ -23,18 +43,45 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Tasks</a></li>
-            <li><a href="#">Communities</a></li>
+            <li>
+              <img class="icon" src="assets/icons/home.svg" alt="house icon" />
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/profile.svg" alt="profile icon" />
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/message.svg" alt="" />
+              <a href="#">Messages</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/history.svg" alt="" />
+              <a href="#">History</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/tasks.svg" alt="house icon" />
+              <a href="#">Tasks</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/communities.svg" alt="house icon" />
+              <a href="#">Communities</a>
+            </li>
           </ul>
 
           <ul>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Privacy</a></li>
+            <li>
+              <img class="icon" src="assets/icons/settings.svg" alt="house icon" />
+              <a href="#">Settings</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/support.svg" alt="house icon" />
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <img class="icon" src="assets/icons/privacy.svg" alt="house icon" />
+              <a href="#">Privacy</a>
+            </li>
           </ul>
         </nav>
       </aside>
