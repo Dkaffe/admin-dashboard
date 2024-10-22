@@ -177,3 +177,15 @@ a {
   border-radius: 15px;
   border: 1px;
 }
+
+.action-button:hover {
+  transition: 0.2s;
+  background-color: rgb(107, 192, 221);
+  cursor: pointer;
+}
+
+.action-button:active {
+  scale: 95%;
+  background-color: var(--main-color);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.138);
+}
